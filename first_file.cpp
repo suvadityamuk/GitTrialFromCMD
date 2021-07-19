@@ -1,6 +1,7 @@
-#include<iostream>
+#include <iostream>
+#define MAX 100 
+#include "add_function.hpp"
 int main()
 {
-    std::cout<<"Hello, this is Suvaditya's first file."<<std::endl;
-    return 0;
+    std::cout<<add(MAX, 7)<<std::endl;
 }
